@@ -15,7 +15,7 @@ interface PageShellProps {
 
 export function PageShell({ eyebrow, title, intro, children }: PageShellProps) {
   return (
-    <main className="relative min-h-screen bg-[#050505] text-white overflow-x-hidden">
+    <main className="relative min-h-screen bg-[#050505] text-white overflow-x-clip">
       <ParticleField density={70} />
       <Navbar />
 

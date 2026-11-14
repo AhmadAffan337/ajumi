@@ -351,6 +351,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  /* background-clip:text only paints inside the box; italic glyphs overhang it,
+     so extend the box with padding and cancel the layout shift with negative margin */
+  padding: 0 0.2em 0 0.1em;
+  margin: 0 -0.2em 0 -0.1em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   animation: shineSweep 1.8s cubic-bezier(.65, 0, .35, 1) .9s both;
 }
 

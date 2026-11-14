@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/PageShell";
 import { About } from "@/components/About";
-import { Team } from "@/components/Team";
 import { CTABanner } from "@/components/CTABanner";
 import { getSeoById, buildMetadata, getJsonLdSchema } from "@/lib/seoStore";
 
@@ -28,7 +27,6 @@ export default function AboutPage() {
         />
       )}
       <About />
-      <Team />
       <CTABanner />
     </PageShell>
   );

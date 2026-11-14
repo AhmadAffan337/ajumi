@@ -20,7 +20,7 @@ export function Problems() {
           transition={{ duration: 1.1 }}
           className="font-display text-[clamp(2.2rem,4.5vw,4.5rem)] leading-[1.05] tracking-tight"
         >
-          Does this sound <span className="text-ember italic">like you</span>?
+          Does this sound <span className="text-ember italic pr-[0.15em]">like you</span>?
         </motion.h2>
         <p className="mt-4 text-white/60">These are the three problems we fix most often.</p>
       </div>

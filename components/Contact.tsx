@@ -61,13 +61,13 @@ export function Contact() {
   return (
     <section id="contact" className="relative py-20 md:py-24 px-8 md:px-14 max-w-[1500px] mx-auto">
       <div className="grid md:grid-cols-2 gap-16">
-        <div>
+        <div className="md:sticky md:top-28 md:self-start">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.1 }}
-            className="font-display text-[clamp(2.2rem,4vw,4rem)] leading-[1.05] tracking-tight"
+            className="font-display text-[clamp(2.2rem,4vw,4rem)] leading-[1.05] tracking-tight text-balance"
           >
             Book your free <span className="text-ember italic">growth audit</span>.
           </motion.h2>

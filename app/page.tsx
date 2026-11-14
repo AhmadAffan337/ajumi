@@ -28,7 +28,7 @@ export default function Home() {
   const jsonLd = seo ? getJsonLdSchema(seo) : null;
 
   return (
-    <main className="relative min-h-screen bg-[#050505] text-white overflow-x-hidden">
+    <main className="relative min-h-screen bg-[#050505] text-white overflow-x-clip">
       {jsonLd && (
         <script
           type="application/ld+json"
