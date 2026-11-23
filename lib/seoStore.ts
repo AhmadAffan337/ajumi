@@ -67,7 +67,7 @@ export function buildMetadata(seo: PageSEOData) {
   const validOgType = (rawType === "article" ? "article" : "website") as "website" | "article";
 
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ajumi.ai"),
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ajumiai.com"),
     title: seo.title,
     description: seo.description,
     keywords: seo.keywords,

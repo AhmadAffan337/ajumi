@@ -3,7 +3,7 @@ import { getAllSeoData } from "@/lib/seoStore";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const allSeo = getAllSeoData();
-  const baseUrl = "https://ajumi.ai";
+  const baseUrl = "https://ajumiai.com";
 
   if (!allSeo || allSeo.length === 0) {
     return [

@@ -48,7 +48,7 @@ type PageSEO = {
   sitemapFreq: SitemapFreq;
 };
 
-const BASE_URL = "https://ajumi.ai";
+const BASE_URL = "https://ajumiai.com";
 
 function makeDefaultSchema(type: SchemaType, label: string, path: string, desc: string): string {
   if (type === "Organization") {
@@ -305,7 +305,7 @@ function PageRow({ page, onSave }: { page: PageSEO; onSave: (updated: PageSEO) =
                         <div className="flex items-center gap-1 text-xs">
                           <span className="text-[#e8eaed] font-medium">Ajumi AI</span>
                           <span className="text-white/30">›</span>
-                          <span className="text-[#81c995] font-mono text-[11px] truncate">ajumi.ai{page.path}</span>
+                          <span className="text-[#81c995] font-mono text-[11px] truncate">ajumiai.com{page.path}</span>
                         </div>
                       </div>
                       <p className="text-[#8ab4f8] text-base font-medium leading-snug hover:underline cursor-pointer line-clamp-1 mb-1">
@@ -352,7 +352,7 @@ function PageRow({ page, onSave }: { page: PageSEO; onSave: (updated: PageSEO) =
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent" />
                       </div>
                       <div className="px-4 py-3 bg-[#1c1e21] border-t border-white/5">
-                        <p className="text-[10px] text-white/30 uppercase tracking-wider">ajumi.ai</p>
+                        <p className="text-[10px] text-white/30 uppercase tracking-wider">ajumiai.com</p>
                         <p className="text-sm font-semibold text-white mt-0.5 line-clamp-1">{draft.ogTitle || "OG Title"}</p>
                         <p className="text-xs text-white/50 mt-0.5 line-clamp-2">{draft.ogDescription || "OG Description..."}</p>
                       </div>

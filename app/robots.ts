@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/seo-manager/", "/api/"],
     },
-    sitemap: "https://ajumi.ai/sitemap.xml",
+    sitemap: "https://ajumiai.com/sitemap.xml",
   };
 }

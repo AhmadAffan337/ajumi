@@ -9,7 +9,7 @@ import { MobileCTABar } from "@/components/MobileCTABar";
 const urbanist = Urbanist({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-urbanist", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ajumi.ai"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ajumiai.com"),
   title: "Ajumi AI — Digital Marketing Agency",
   description:
     "Ajumi AI is a full-service digital marketing studio blending SEO, paid media, social and content — engineered for measurable growth, sculpted for taste.",
