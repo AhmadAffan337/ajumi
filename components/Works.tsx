@@ -11,7 +11,7 @@ const works = [
     sub: "Home Services · DTC Campaign",
     desc: "Challenge: Stagnant local lead volume. Intervention: Technical SEO & multi-channel Meta/Google performance media. Result: 3.2× qualified booking growth in 90 days.",
     tags: ["Paid Media", "Technical SEO", "Conversion CRO"],
-    image: "/images/work_handify.png",
+    image: "/home%20page%20images/home_services_dtc_compaign.avif",
     stat: "3.2×",
     statLabel: "Booking Growth",
     year: "2025",
@@ -23,7 +23,7 @@ const works = [
     sub: "Mobile App · Growth Sprint",
     desc: "Challenge: High App Store acquisition costs. Intervention: Creator whitelisting & TikTok Spark Ads sprint. Result: 180,000 viral app installs at 42% lower CPI.",
     tags: ["Creator Ads", "TikTok Growth", "Short-Form Video"],
-    image: "/images/work_glim.png",
+    image: "/home%20page%20images/mobile_app_growth_sprint.avif",
     stat: "180k",
     statLabel: "Installs",
     year: "2025",
@@ -35,7 +35,7 @@ const works = [
     sub: "E-Commerce · Brand",
     desc: "Challenge: Low customer lifetime value. Intervention: Modern brand system relaunch & editorial content engine. Result: +240% YoY e-commerce revenue growth.",
     tags: ["Brand System", "Editorial Content", "DTC Revenue"],
-    image: "/images/work_noctura.png",
+    image: "/home%20page%20images/ecommerce_brand.webp",
     stat: "+240%",
     statLabel: "Revenue",
     year: "2026",
@@ -47,7 +47,7 @@ const works = [
     sub: "B2B · Lead Generation",
     desc: "Challenge: Too much spent to win each customer. What we did: Targeted the right companies directly and set up more accurate ad tracking. Result: 38% lower cost per customer and twice as many leads.",
     tags: ["B2B SaaS", "Targeted Outreach", "Accurate Ad Tracking"],
-    image: "/images/work_velox.png",
+    image: "/home%20page%20images/b2b_lead_generation.avif",
     stat: "−38%",
     statLabel: "Lower Cost per Customer",
     year: "2025",
@@ -59,7 +59,7 @@ const works = [
     sub: "DTC · Email & Retention",
     desc: "Challenge: High one-time customer churn. Intervention: Automated Klaviyo lifecycle CRM & SMS sequences. Result: Repeat purchase rate increased from 18% to 41%.",
     tags: ["Klaviyo CRM", "Customer Retention", "LTV Scaling"],
-    image: "/images/work_aura.png",
+    image: "/home%20page%20images/dtc_email_retention.avif",
     stat: "41%",
     statLabel: "Repeat Purchase",
     year: "2026",
@@ -108,7 +108,7 @@ function WorkCard({
           <img
             src={w.image}
             alt={w.title}
-            className="w-full h-full object-cover object-top opacity-80 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700 ease-out"
+            className="w-full h-full object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700 ease-out"
           />
         </div>
 
@@ -196,11 +196,10 @@ export function Works() {
       </div>
 
       {/* Row 1: Big + Medium */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-5 mb-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
         <WorkCard
           w={big}
           i={0}
-          className="md:col-span-7"
           imgHeight="h-[360px]"
           titleSize="text-3xl md:text-4xl"
           showDesc={true}
@@ -208,9 +207,8 @@ export function Works() {
         <WorkCard
           w={medium}
           i={1}
-          className="md:col-span-5"
           imgHeight="h-[360px]"
-          titleSize="text-2xl md:text-3xl"
+          titleSize="text-3xl md:text-4xl"
           showDesc={true}
         />
       </div>

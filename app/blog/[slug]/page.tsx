@@ -26,7 +26,7 @@ const articles: Record<string, Article> = {
     readTime: "5 min read",
     author: getTeamMember("Olivia Carter").name,
     authorRole: getTeamMember("Olivia Carter").role,
-    image: "/images/blog_seo.png",
+    image: "/home%20page%20images/why_topical_authorty_beats_keyboards.avif",
     excerpt: "How AI overviews and generative search are reshaping organic strategy.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -68,7 +68,7 @@ const articles: Record<string, Article> = {
     readTime: "6 min read",
     author: getTeamMember("Sophia Bennett").name,
     authorRole: getTeamMember("Sophia Bennett").role,
-    image: "/images/blog_brand.png",
+    image: "/blog%20images/strong_brand_identity.webp",
     excerpt: "How coherent brand systems unlock trust, retention and premium pricing.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -113,7 +113,7 @@ const articles: Record<string, Article> = {
     readTime: "7 min read",
     author: getTeamMember("Olivia Carter").name,
     authorRole: getTeamMember("Olivia Carter").role,
-    image: "/images/blog_paid.png",
+    image: "/blog%20images/creative_testing.avif",
     excerpt: "Our repeatable framework for finding scalable creative on Meta and TikTok.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -160,7 +160,7 @@ const articles: Record<string, Article> = {
     readTime: "4 min read",
     author: getTeamMember("Sophia Bennett").name,
     authorRole: getTeamMember("Sophia Bennett").role,
-    image: "/images/blog_email.png",
+    image: "/blog%20images/email_isnt_dead.webp",
     excerpt: "The compounding revenue channel most brands still leave on the table.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -197,7 +197,7 @@ const articles: Record<string, Article> = {
     readTime: "8 min read",
     author: getTeamMember("Olivia Carter").name,
     authorRole: getTeamMember("Olivia Carter").role,
-    image: "/images/blog_analytics.png",
+    image: "/blog%20images/full_funel_reporting_stack.avif",
     excerpt: "From ad platforms to pipeline attribution — what actually informs decisions.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -231,7 +231,7 @@ const articles: Record<string, Article> = {
     readTime: "6 min read",
     author: getTeamMember("Oweicho").name,
     authorRole: getTeamMember("Oweicho").role,
-    image: "/images/blog_content.png",
+    image: "/blog%20images/content_ops.webp",
     excerpt: "Repeatable systems for editorial cadence, quality control and repurposing.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -274,7 +274,7 @@ const articles: Record<string, Article> = {
     readTime: "4 min read",
     author: getTeamMember("Olivia Carter").name,
     authorRole: getTeamMember("Olivia Carter").role,
-    image: "/images/blog_seo.png",
+    image: "/home%20page%20images/how_restaurants_get_more_reservations.avif",
     excerpt: "Three local-search fixes that turn people searching 'restaurants near me' into booked tables.",
     content: (
       <div className="space-y-8 text-white/80">
@@ -312,7 +312,7 @@ const articles: Record<string, Article> = {
     readTime: "4 min read",
     author: getTeamMember("Olivia Carter").name,
     authorRole: getTeamMember("Olivia Carter").role,
-    image: "/images/blog_paid.png",
+    image: "/home%20page%20images/law_firm_marketing.webp",
     excerpt: "Why most legal ads waste budget, and how to reach clients at the moment they need a lawyer.",
     content: (
       <div className="space-y-8 text-white/80">

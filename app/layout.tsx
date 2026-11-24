@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { CustomCursor } from "@/components/CustomCursor";
 import { ClientOnly } from "@/components/ClientOnly";
 import { MobileCTABar } from "@/components/MobileCTABar";
+import { ChatLauncher } from "@/components/chat/ChatLauncher";
 
 const urbanist = Urbanist({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-urbanist", display: "swap" });
 
@@ -42,6 +43,7 @@ export default function RootLayout({
         </ClientOnly>
         {children}
         <MobileCTABar />
+        <ChatLauncher />
       </body>
     </html>
   );

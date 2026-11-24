@@ -15,7 +15,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "How Restaurants Can Get More Reservations From Google",
     excerpt: "Three local-search fixes that turn people searching 'restaurants near me' into booked tables.",
     category: "Local SEO",
-    image: "/images/blog_seo.png",
+    image: "/home%20page%20images/how_restaurants_get_more_reservations.avif",
   },
   {
     slug: "law-firm-marketing-qualified-leads",
@@ -23,7 +23,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "Law Firm Marketing: Getting Calls From People Ready to Hire",
     excerpt: "Why most legal ads waste budget, and how to reach clients at the moment they need a lawyer.",
     category: "Paid Media",
-    image: "/images/blog_paid.png",
+    image: "/home%20page%20images/law_firm_marketing.webp",
   },
   {
     slug: "seo-2026-topical-authority",
@@ -31,7 +31,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "SEO in 2026: Why Topical Authority Beats Keywords",
     excerpt: "How AI overviews and generative search are reshaping organic strategy.",
     category: "SEO",
-    image: "/images/blog_seo.png",
+    image: "/home%20page%20images/why_topical_authorty_beats_keyboards.avif",
   },
   {
     slug: "brand-identity-foundation",
@@ -39,7 +39,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "Why a Strong Brand Identity Is the Foundation of Growth",
     excerpt: "How coherent brand systems unlock trust, retention and premium pricing.",
     category: "Brand",
-    image: "/images/blog_brand.png",
+    image: "/blog%20images/strong_brand_identity.webp",
   },
   {
     slug: "creative-testing-paid-ads",
@@ -47,7 +47,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "The Creative Testing System We Use for Every Paid Account",
     excerpt: "Our repeatable framework for finding scalable creative on Meta and TikTok.",
     category: "Paid Media",
-    image: "/images/blog_paid.png",
+    image: "/blog%20images/creative_testing.avif",
   },
   {
     slug: "email-retention-channel",
@@ -55,7 +55,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "Email Isn't Dead — It's Just Being Underinvested In",
     excerpt: "The compounding revenue channel most brands still leave on the table.",
     category: "Email",
-    image: "/images/blog_email.png",
+    image: "/blog%20images/email_isnt_dead.webp",
   },
   {
     slug: "full-funnel-reporting-stack",
@@ -63,7 +63,7 @@ export const blogPosts: BlogPostMeta[] = [
     title: "The Full-Funnel Reporting Stack We Build for Clients",
     excerpt: "From ad platforms to the sale — what actually informs decisions.",
     category: "Analytics",
-    image: "/images/blog_analytics.png",
+    image: "/blog%20images/full_funel_reporting_stack.avif",
   },
   {
     slug: "content-ops-systems",
@@ -71,6 +71,6 @@ export const blogPosts: BlogPostMeta[] = [
     title: "How We Approach Content Ops for a 12-Person Team",
     excerpt: "Repeatable systems for editorial cadence, quality control and repurposing.",
     category: "Content",
-    image: "/images/blog_content.png",
+    image: "/blog%20images/content_ops.webp",
   },
 ];
